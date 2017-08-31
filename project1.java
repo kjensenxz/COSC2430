@@ -15,8 +15,6 @@ public class project1 {
 		int time = 0, bounces = 0;
 		double height = 0, velocity = 0; // using an int will result in rounding errors
 
-		Scanner sc = new Scanner(System.in);
-
 		velocity = readDouble("Enter the initial velocity of the ball: ");
 
 		if (velocity == 0f) {
