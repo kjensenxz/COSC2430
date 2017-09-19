@@ -24,10 +24,6 @@ public class CustomString {
 	public String text;
 	public int length;
 
-	public CustomString() {
-
-	}
-
 	public CustomString(String s) {
 		text = s;
 		length = s.length();
