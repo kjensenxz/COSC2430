@@ -1,4 +1,4 @@
-/* PalindromeDemo
+/* Palindrome
  *
  * Kenneth B. Jensen
  * COSC 2430 // Introduction to Computer Science II
@@ -9,13 +9,13 @@
  * 
  * Architecture:
  * Palindrome - the actual palindrome-checking logic using the methods built into
- * 	the CustomString class.
+ *      the CustomString class.
  *
  * PalindromeDemo - entry to program; creates a CustomString and uses
- * 	a method that operates on CustomStrings in the Palindrome class.
+ *      a method that operates on CustomStrings in the Palindrome class.
  *
  * CustomString - adds helpful methods to a String, since java.lang.String is final
- * 	and cannot be extended.
+ *      and cannot be extended.
  */
 
 public class Palindrome {

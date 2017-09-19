@@ -1,14 +1,19 @@
 /* PalindromeDemo
+ *
  * Kenneth B. Jensen
  * COSC 2430 // Introduction to Computer Science II
  * Section 501
  * Project 2
+ *
  * This program checks if a user-inputted string is a palindrome.
+ *
  * Architecture:
  * PalindromeDemo - entry to program; creates a CustomString and uses
  *      a method that operates on CustomStrings in the Palindrome class.
+ *
  * CustomString - adds helpful methods to a String, since java.lang.String is final
  *      and cannot be extended.
+ *
  * Palindrome - the actual palindrome-checking logic using the methods built into
  *      the CustomString class.
  */
